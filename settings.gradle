@@ -1,0 +1,3 @@
+include ':SlideCounter'
+include ':app'
+rootProject.name = "SlideCounter-Android"
