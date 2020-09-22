@@ -1,10 +1,11 @@
-[![Version](https://jitpack.io/#Saif-al-islam/SlideCounter-Android/Tag)]()
-[![API](https://img.shields.io/badge/API-%2B17-green.svg)]
+[![platform](https://img.shields.io/badge/platform-Android-yellow.svg)](https://www.android.com)
+ [![](https://jitpack.io/v/Saif-al-islam/SlideCounter-Android.svg)](https://jitpack.io/#Saif-al-islam/SlideCounter-Android)
+ [![API](https://img.shields.io/badge/API-%2B17-green.svg)]()
 
 **SliderCounterView** - An Android library that can increase and decrease the Count.
 
 ## Sample
-![][2]
+<img src="ScreenShot/1.png" />
 
 ## Usage
 
@@ -72,7 +73,3 @@ All the attribute of the xml can be changed throw the Java/Kotlin code in additi
 | setSlideCounterListener | OnSlideCounterListener | This Function is called every time the Current value of the counter change
 
 
-
-
-
-    [2]:https://github.com/Saif-al-islam/SlideCounter-Android/blob/master/ScreenShot/1.png
