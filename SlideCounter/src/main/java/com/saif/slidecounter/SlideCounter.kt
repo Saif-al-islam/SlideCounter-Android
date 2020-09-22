@@ -364,6 +364,10 @@ class SlideCounter : ConstraintLayout, View.OnTouchListener
 
     interface OnSlideCounterListener
     {
+        /**
+         * This Function is called every time the Current value of the counter change
+         * @param value the current value of the view
+         * */
         fun onSliderValueChanged(value: Int)
     }
 }

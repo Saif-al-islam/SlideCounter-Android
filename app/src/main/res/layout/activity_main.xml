@@ -7,22 +7,22 @@
     tools:context=".MainActivity">
 
 
-<!--    <com.saif.slidecounter-->
-<!--        android:id="@+id/num_pick"-->
-<!--        android:layout_width="wrap_content"-->
-<!--        android:layout_height="wrap_content"-->
-<!--        app:initNum="1"-->
-<!--        android:background="@color/gray_1"-->
-<!--        app:layout_constraintBottom_toBottomOf="parent"-->
-<!--        app:layout_constraintEnd_toEndOf="parent"-->
-<!--        app:layout_constraintStart_toStartOf="parent"-->
-<!--        app:layout_constraintTop_toTopOf="parent"-->
-<!--        app:minNum="1"-->
-<!--        app:numMargin="12dp"-->
-<!--        app:unitTopMargin="12dp"-->
-<!--        app:orientation="Vertical"-->
-<!--        app:unitText="Reps"/>-->
-
+    <com.saif.slidecounter.SlideCounter
+        android:id="@+id/num_pick"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/gray_1"
+        app:init_counter="1"
+        app:min_counter="0"
+        app:max_counter="100"
+        app:step_counter="1"
+        app:start_color_counter="#FFFFFF"
+        app:end_color_counter="#000000"
+        app:radius_counter="12dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
