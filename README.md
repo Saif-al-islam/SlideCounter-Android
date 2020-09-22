@@ -75,4 +75,4 @@ All the attribute of the xml can be changed throw the Java/Kotlin code in additi
 
 
 
-    [2]:https://github.com/Saif-al-islam/SlideCounter-Android/tree/master/ScreenShot/1.png
+    [2]:https://github.com/Saif-al-islam/SlideCounter-Android/blob/master/ScreenShot/1.png
