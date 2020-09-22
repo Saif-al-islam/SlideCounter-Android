@@ -1,5 +1,5 @@
-[![Version](https://jitpack.io/#Saif-al-islam/SlideCounter-Android/Tag)]()
-[![API](https://img.shields.io/badge/API-%2B17-green.svg)]
+[![](https://jitpack.io/v/Saif-al-islam/SlideCounter-Android.svg)](https://jitpack.io/#Saif-al-islam/SlideCounter-Android)
+   [![API](https://img.shields.io/badge/API-%2B17-green.svg)]
 
 **SliderCounterView** - An Android library that can increase and decrease the Count.
 
