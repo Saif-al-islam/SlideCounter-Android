@@ -4,7 +4,7 @@
 **SliderCounterView** - An Android library that can increase and decrease the Count.
 
 ## Sample
-![][2]
+![asd][2]
 
 ## Usage
 
