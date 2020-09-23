@@ -17,7 +17,7 @@
         app:max_counter="100"
         app:step_counter="1"
         app:start_color_counter="#FFFFFF"
-        app:end_color_counter="#000000"
+        app:end_color_counter="#FF0000"
         app:radius_counter="12dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
