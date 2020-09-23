@@ -5,7 +5,7 @@
 **SliderCounterView** - An Android library that can increase and decrease the Count.
 
 ## Sample
-<img src="ScreenShot/1.png" />
+<img src="ScreenShot/1.gif" />
 
 ## Usage
 
