@@ -184,7 +184,7 @@ class SlideCounter : ConstraintLayout, View.OnTouchListener
                         v.x = xView
                 }
             }
-            MotionEvent.ACTION_UP ->
+            MotionEvent.ACTION_UP, MotionEvent.ACTION_CANCEL ->
             {
                 if (::popWindowCounter.isInitialized)
                     popWindowCounter.dismiss()
