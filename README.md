@@ -5,7 +5,7 @@
 **SliderCounterView** - An Android library that can increase and decrease the Count.
 
 ## Sample
-<img src="ScreenShot/1.png" />
+<img src="ScreenShot/1.gif" />
 
 ## Usage
 
@@ -72,4 +72,7 @@ All the attribute of the xml can be changed throw the Java/Kotlin code in additi
 |:---:|:---:|:---:|
 | setSlideCounterListener | OnSlideCounterListener | This Function is called every time the Current value of the counter change
 
+
+## UI/UX by:
+Mohamed Elzohairy
 
