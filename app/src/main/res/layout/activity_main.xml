@@ -16,6 +16,8 @@
         app:min_counter="0"
         app:max_counter="100"
         app:step_counter="1"
+        app:layout_constraintVertical_bias="0.9"
+        app:layout_constraintHorizontal_bias="0.8"
         app:start_color_counter="#FFFFFF"
         app:end_color_counter="#FF0000"
         app:radius_counter="12dp"

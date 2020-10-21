@@ -8,18 +8,20 @@ import android.graphics.drawable.GradientDrawable
 import android.os.Handler
 import android.os.Parcel
 import android.os.Parcelable
-import androidx.constraintlayout.widget.ConstraintLayout
-import com.google.android.material.animation.ArgbEvaluatorCompat
-import androidx.core.content.res.ResourcesCompat
-import androidx.core.view.ViewCompat
-import androidx.appcompat.widget.AppCompatTextView
 import android.util.AttributeSet
 import android.view.*
 import android.view.animation.AnticipateInterpolator
 import android.widget.ImageView
 import android.widget.PopupWindow
 import android.widget.TextView
+import android.widget.Toast
+import androidx.appcompat.widget.AppCompatTextView
+import androidx.constraintlayout.widget.ConstraintLayout
 import androidx.core.content.ContextCompat
+import androidx.core.content.res.ResourcesCompat
+import androidx.core.view.ViewCompat
+import com.google.android.material.animation.ArgbEvaluatorCompat
+
 
 class SlideCounter : ConstraintLayout, View.OnTouchListener
 {
@@ -276,8 +278,13 @@ class SlideCounter : ConstraintLayout, View.OnTouchListener
         }
 
         popTextCounter.text = currentCounter.toString()
-        popWindowCounter.showAtLocation(this, Gravity.CENTER_HORIZONTAL, 0, -(height/2)-20)
+        with(IntArray(2))
+        {
+            this@SlideCounter.getLocationOnScreen(this)
+            popWindowCounter.showAtLocation(rootView, Gravity.NO_GRAVITY, 0, 0)
+        }
     }
+
 
 
     private fun increaseCounter()
